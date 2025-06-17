@@ -36,7 +36,6 @@ body {
   height: $cell-size;
   background-color: $cell-bg;
   border: $cell-border;
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,8 +45,8 @@ body {
     font-size: $font-size;
     font-family: $font-family;
     color: black;
-    position: absolute;
   }
+
   &:hover {
     background-color: #ffbfcb;
     transition-duration: 0.5s;
